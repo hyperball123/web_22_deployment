@@ -1,0 +1,97 @@
+/* basic resets */
+body{
+   /* margin-left:1rem;
+    margin-right:1rem;
+   */
+   /* or you can write it like this */
+    margin: 0rem 2rem;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* header... */
+header{
+    display: flex;
+    /* manages space horizontally */
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin-left: 1.5rem;
+}
+nav{
+    margin-right: 1rem;
+    /* margin-top: 10px; */
+    height: 90%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+}
+ul>li{
+    width: 30%;
+    font-size: 1.5rem;
+}
+/* LINKS STYLING */
+a:link{
+    color: black;
+}
+a:visited{
+    color:aqua;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+/* -----main img */
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* main area... */
+.parent{
+    /* border: 10px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    /* text inside that parent including images will be aligned */
+    text-align: center;
+    justify-content: space-evenly;
+}
+.child{
+    width: 30%;
+}
+/* footer tag */
+.footer_parent{
+    height: 5rem;
+    background-color:black;
+    /* Flexbox - it is used to perfectly center a div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content{
+    /* enforce uppercase */
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+    /* for boldness */
+    font-weight: 400;
+}
+
+
