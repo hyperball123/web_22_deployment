@@ -7,3 +7,5 @@
     
 ## rest of users(Not first timers)
     * git init - for creating repo
+
+*git log - to check the commits and history
